@@ -9,18 +9,18 @@ body {
 
 .color-text {
   font-weight: bold;
-  color: #2f718a;
-  text-shadow: -4px 4px 0px #5492a8, -7px 7px 0px #1a0614;
+  color: #422a3c;
+  text-shadow: -4px 4px 0px #a5a89b, -7px 7px 0px #70636d;
 }
 
 .color-text-small {
-  color: #38152f;
-  text-shadow: -2px 2px 0px #70636d, -4px 4px 0px #1a0614;
+  color: #422a3c;
+  text-shadow: -2px 2px 0px #a5a89b, -4px 4px 0px #70636d;
 }
 
 .block {
-  margin-top: 15vh;
-  margin-bottom: 15vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 
   @media only screen and (max-width: 768px) {
     margin-top: 5vh;
@@ -31,7 +31,6 @@ body {
 h1 {
   font-size: 48px;
   line-height: 48px;
-  color: #1a0614;
 
   @media only screen and (max-width: 768px) {
     font-size: 30px;
@@ -57,7 +56,7 @@ p {
 
 p {
   line-height: 28px;
-  margin-right: 20vw;
+  margin-right: 22vw;
 
   @media only screen and (max-width: 768px) {
     margin-right: 5vw;
@@ -68,7 +67,7 @@ p {
 
 #hello {
   font-size: 112px;
-  margin-top: 45vh;
+  margin-top: 55vh;
 
   @media only screen and (max-width: 768px) {
     margin-top: 10vh;
@@ -76,7 +75,8 @@ p {
 }
 
 #about-me {
-  width: 50vw;
+  width: 80vw;
+  margin-bottom: 15vh;
 
   @media only screen and (max-width: 768px) {
     width: 100%;
@@ -90,7 +90,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-bottom: 2vh;
 }
 
 .one-project a:link {
@@ -98,41 +97,25 @@ p {
 }
 
 .one-project a:visited {
-  color: black;
+  color: #422a3c;
 }
 
 .one-project a:active {
-  color: #da3e52;
+  color: #a5a89b;
 }
 
 /* Profile */
-
-#profile {
-  margin-bottom: 25vh;
-
-  @media only screen and (max-width: 768px) {
-    margin-bottom: 5vh;
-  }
-}
-
-#contact {
-  margin-top: 15vh;
-
-  @media only screen and (max-width: 768px) {
-    margin-top: 5vh;
-  }
-}
 
 #contact a:link {
   color: black;
 }
 
 #contact a:visited {
-  color: black;
+  color: #422a3c;
 }
 
 #contact a:active {
-  color: #96e6b3;
+  color: #a5a89b;
 }
 
 /* Footer */
