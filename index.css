@@ -1,0 +1,148 @@
+/* General */
+
+body {
+  margin-left: 10vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #dfdfdf;
+}
+
+.color-text {
+  font-weight: bold;
+  color: #2f718a;
+  text-shadow: -4px 4px 0px #5492a8, -7px 7px 0px #1a0614;
+}
+
+.color-text-small {
+  color: #38152f;
+  text-shadow: -2px 2px 0px #70636d, -4px 4px 0px #1a0614;
+}
+
+.block {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 48px;
+  color: #1a0614;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  font-size: 42px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 28px;
+  }
+}
+
+h3,
+p {
+  font-size: 20px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+p {
+  line-height: 28px;
+  margin-right: 20vw;
+
+  @media only screen and (max-width: 768px) {
+    margin-right: 5vw;
+  }
+}
+
+/* Home */
+
+#hello {
+  font-size: 112px;
+  margin-top: 45vh;
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 10vh;
+  }
+}
+
+#about-me {
+  width: 50vw;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    margin-right: 5px;
+  }
+}
+
+/* Projects */
+
+.one-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 2vh;
+}
+
+.one-project a:link {
+  color: black;
+}
+
+.one-project a:visited {
+  color: black;
+}
+
+.one-project a:active {
+  color: #da3e52;
+}
+
+/* Profile */
+
+#profile {
+  margin-bottom: 25vh;
+
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 5vh;
+  }
+}
+
+#contact {
+  margin-top: 15vh;
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 5vh;
+  }
+}
+
+#contact a:link {
+  color: black;
+}
+
+#contact a:visited {
+  color: black;
+}
+
+#contact a:active {
+  color: #96e6b3;
+}
+
+/* Footer */
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  position: sticky;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 8px;
+  }
+}
