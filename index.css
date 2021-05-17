@@ -44,7 +44,8 @@ p {
 
 @media (max-width: 768px) {
   p {
-    margin-right: 22vw;
+    margin-right: 12vw;
+    font-size: 18px;
   }
 }
 
@@ -57,12 +58,18 @@ p {
 @media (max-width: 768px) {
   #hello {
     font-size: 86px;
-    margin-top: 45vh;
+    margin-top: 25vh;
   }
 }
 
 #about-me {
   margin-bottom: 15vh;
+}
+
+@media (max-width: 768px) {
+  #about-me {
+    margin-bottom: 25vh;
+  }
 }
 
 /* Projects */
