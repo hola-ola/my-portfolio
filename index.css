@@ -12,11 +12,6 @@ body {
   color: purple;
   text-shadow: -4px 4px 0px #a5a89b, -7px 7px 0px #70636d;
 }
-@media (min-width: 600px) {
-  .color-text {
-    color: blue;
-  }
-}
 
 .color-text-small {
   color: #422a3c;
@@ -26,8 +21,9 @@ body {
 .block {
   margin-top: 10vh;
   margin-bottom: 10vh;
-
-  @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
+  .block {
     margin-top: 1vh;
     margin-bottom: 1vh;
   }
@@ -36,8 +32,10 @@ body {
 h1 {
   font-size: 48px;
   line-height: 48px;
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  h1 {
     font-size: 20px;
     font-weight: 300;
   }
@@ -45,8 +43,10 @@ h1 {
 
 h2 {
   font-size: 42px;
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  h2 {
     font-size: 16px;
   }
 }
@@ -54,8 +54,11 @@ h2 {
 h3,
 p {
   font-size: 20px;
+}
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  h3,
+  p {
     font-size: 10px;
   }
 }
@@ -63,8 +66,10 @@ p {
 p {
   line-height: 28px;
   margin-right: 22vw;
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  p {
     margin-right: 0;
   }
 }
@@ -74,8 +79,9 @@ p {
 #hello {
   font-size: 112px;
   margin-top: 55vh;
-
-  @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
+  #hello {
     font-size: 54px;
     margin-top: 0;
   }
@@ -83,8 +89,10 @@ p {
 
 #about-me {
   margin-bottom: 15vh;
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  #about-me {
     margin-right: 0;
   }
 }
@@ -123,8 +131,9 @@ footer {
   font-size: 12px;
   text-align: center;
   position: sticky;
-
-  @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
+  footer {
     font-size: 8px;
   }
 }
