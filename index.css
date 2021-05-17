@@ -9,7 +9,7 @@ body {
 
 .color-text {
   font-weight: bold;
-  color: orange;
+  color: red;
   text-shadow: -4px 4px 0px #a5a89b, -7px 7px 0px #70636d;
 }
 
@@ -22,9 +22,9 @@ body {
   margin-top: 10vh;
   margin-bottom: 10vh;
 
-  @media only screen and (max-width: 768px) {
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+  @media (max-width: 768px) {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
   }
 }
 
@@ -32,16 +32,16 @@ h1 {
   font-size: 48px;
   line-height: 48px;
 
-  @media only screen and (max-width: 768px) {
-    font-size: 24px;
+  @media (max-width: 768px) {
+    font-size: 20px;
   }
 }
 
 h2 {
   font-size: 42px;
 
-  @media only screen and (max-width: 768px) {
-    font-size: 28px;
+  @media (max-width: 768px) {
+    font-size: 16px;
   }
 }
 
@@ -59,7 +59,7 @@ p {
   margin-right: 22vw;
 
   @media only screen and (max-width: 768px) {
-    margin-right: 3vw;
+    margin-right: 1vw;
   }
 }
 
@@ -69,8 +69,8 @@ p {
   font-size: 112px;
   margin-top: 55vh;
 
-  @media only screen and (max-width: 768px) {
-    font-size: 96px;
+  @media (max-width: 768px) {
+    font-size: 60px;
     margin-top: 2vh;
   }
 }
@@ -79,18 +79,12 @@ p {
   width: 80vw;
   margin-bottom: 15vh;
 
-  @media only screen and (max-width: 768px) {
-    width: 100%;
+  @media (max-width: 768px) {
+    width: 100vw;
   }
 }
 
 /* Projects */
-
-.one-project {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
 
 .one-project a:link {
   color: black;
