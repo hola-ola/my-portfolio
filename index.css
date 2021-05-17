@@ -14,8 +14,8 @@ body {
 }
 
 .color-text-small {
-  color: #422a3c;
-  text-shadow: -2px 2px 0px #a5a89b, -4px 4px 0px #70636d;
+  color: #8f246b;
+  text-shadow: -2px 2px 0px #ffc2c2, -4px 4px 0px #e67300;
 }
 
 .block {
@@ -86,11 +86,11 @@ p {
 }
 
 .one-project a:visited {
-  color: #422a3c;
+  color: #8f246b;
 }
 
 .one-project a:active {
-  color: #a5a89b;
+  color: #e67300;
 }
 
 /* Profile */
@@ -100,11 +100,11 @@ p {
 }
 
 #contact a:visited {
-  color: #422a3c;
+  color: #8f246b;
 }
 
 #contact a:active {
-  color: #a5a89b;
+  color: #e67300;
 }
 
 /* Footer */
