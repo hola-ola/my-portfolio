@@ -11,6 +11,10 @@ body {
   font-weight: bold;
   color: red;
   text-shadow: -4px 4px 0px #a5a89b, -7px 7px 0px #70636d;
+
+  @media (max-width: 768px) {
+    color: pink;
+  }
 }
 
 .color-text-small {
@@ -34,6 +38,7 @@ h1 {
 
   @media (max-width: 768px) {
     font-size: 20px;
+    font-weight: 300;
   }
 }
 
@@ -58,8 +63,8 @@ p {
   line-height: 28px;
   margin-right: 22vw;
 
-  @media only screen and (max-width: 768px) {
-    margin-right: 1vw;
+  @media (max-width: 768px) {
+    margin-right: 0;
   }
 }
 
@@ -70,17 +75,16 @@ p {
   margin-top: 55vh;
 
   @media (max-width: 768px) {
-    font-size: 60px;
-    margin-top: 2vh;
+    font-size: 54px;
+    margin-top: 0;
   }
 }
 
 #about-me {
-  width: 80vw;
   margin-bottom: 15vh;
 
   @media (max-width: 768px) {
-    width: 100vw;
+    margin-right: 0;
   }
 }
 
@@ -119,7 +123,7 @@ footer {
   text-align: center;
   position: sticky;
 
-  @media only screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 8px;
   }
 }
