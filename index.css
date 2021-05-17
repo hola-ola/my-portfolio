@@ -82,8 +82,8 @@ p {
 }
 @media (max-width: 768px) {
   #hello {
-    font-size: 54px;
-    margin-top: 0;
+    font-size: 86px;
+    margin-top: 40vh;
   }
 }
 
