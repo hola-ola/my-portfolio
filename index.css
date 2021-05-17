@@ -9,10 +9,10 @@ body {
 
 .color-text {
   font-weight: bold;
-  color: red;
+  color: purple;
   text-shadow: -4px 4px 0px #a5a89b, -7px 7px 0px #70636d;
 
-  @media (max-width: 800px) {
+  @media screen and (min-width: 769px) {
     color: pink;
   }
 }
