@@ -9,7 +9,7 @@ body {
 
 .color-text {
   font-weight: bold;
-  color: green;
+  color: orange;
   text-shadow: -4px 4px 0px #a5a89b, -7px 7px 0px #70636d;
 }
 
@@ -50,7 +50,7 @@ p {
   font-size: 20px;
 
   @media only screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
@@ -59,7 +59,7 @@ p {
   margin-right: 22vw;
 
   @media only screen and (max-width: 768px) {
-    margin-right: 5vw;
+    margin-right: 3vw;
   }
 }
 
@@ -70,7 +70,8 @@ p {
   margin-top: 55vh;
 
   @media only screen and (max-width: 768px) {
-    margin-top: 5vh;
+    font-size: 96px;
+    margin-top: 2vh;
   }
 }
 
@@ -80,7 +81,6 @@ p {
 
   @media only screen and (max-width: 768px) {
     width: 100%;
-    margin-right: 5px;
   }
 }
 
