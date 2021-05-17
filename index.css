@@ -12,8 +12,8 @@ body {
   color: purple;
   text-shadow: -4px 4px 0px #a5a89b, -7px 7px 0px #70636d;
 
-  @media screen and (min-width: 769px) {
-    color: pink;
+  @media screen and (min-width: 600px) {
+    color: blue;
   }
 }
 
